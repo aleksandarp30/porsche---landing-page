@@ -1,0 +1,475 @@
+/*
+.lexend-giga-<uniquifier> {
+  font-family: "Lexend Giga", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.lexend-deca-<uniquifier> {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+header{
+    width: 100%;
+    padding-bottom: 50px;
+    height: 92vh;
+    /* height: 900px; */
+    /* background-color: rgba(0,0,0,0.4); */
+}
+.header-nav{
+    display:flex;
+    flex-direction: row;
+    padding-top: 55px;
+}
+#logo{
+    margin-left: 10.3%;
+    width: 2%;
+}
+.top-links{
+    margin-left: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.link{
+    font-size: 20px;
+    font-family: "Lexend Deca", sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-right: 8%;
+}
+.link {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+}
+
+.link::after {
+    color: white;
+    content: "";
+    position: absolute;
+    width: 48%;
+    height: 2px;
+    background-color: white; /* Change this to your desired color */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.link:hover::after {
+    transform: scaleX(1);
+}
+
+.link2::after {
+    color: white;
+    content: "";
+    position: absolute;
+    width: 67%;
+    height: 2px;
+    background-color: white; /* Change this to your desired color */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.link2:hover::after {
+    transform: scaleX(1);
+}
+.link3::after {
+    color: white;
+    content: "";
+    position: absolute;
+    width: 58%;
+    height: 2px;
+    background-color: white; /* Change this to your desired color */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.link3:hover::after {
+    transform: scaleX(1);
+}
+.link4::after {
+    color: white;
+    content: "";
+    position: absolute;
+    width: 58%;
+    height: 2px;
+    background-color: white; /* Change this to your desired color */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.link4:hover::after {
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+
+
+.hero{
+    font-family: "Lexend Giga", sans-serif;
+    font-size: 35px;
+    color: white;
+    display: inline;
+    font-weight: bold;
+    margin-left: 10%;
+}
+#video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.color{
+    color: #A43636;
+    display: inline;
+    margin-left: 0.5%;
+}
+.par-1{
+    color: #E1DADA;
+    font-family: "Lexend Giga", sans-serif;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top: 40px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.see-more{
+    color: #A43636;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10%;
+    
+}
+.see-more:hover{
+    font-size: 16px;
+}
+.see-more:hover::after{
+    transform: translateY(100px);
+}
+.text-wrap{
+    margin-top: 150px;
+    width: 100%;
+}
+.desc{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 330px;
+}
+.big-bold{
+    font-size: 35px;
+    color: white;
+    font-family: "Lexend Giga", sans-serif;
+    font-weight: bold;
+    display: inline;
+}
+.text1{
+    display: inline;
+    font-size: 32px;
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    margin: 0 auto;
+}
+
+.under-big-bold{
+    font-size: 14px;
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    display: block;
+    margin: 0 auto;
+}
+.article1{
+    width: 13%;
+    
+    margin-left: 6%;
+}
+/* .main-sec-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    gap: 7%;
+} */
+.big-bold-2{
+    font-size: 30px;
+    font-family: "Lexend Giga", sans-serif;
+    font-weight: bold;
+    
+}
+.main-sec-2{
+    background: #110313;
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    overflow: hidden;
+}
+#sec-2-par{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-family: "Lexend Giga", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+#sec-2-par > p{
+    padding-top: 110px;
+ }
+/* .slide-porsche{
+    width: 42%;
+    padding-top: 70px;
+}
+.slide-porsche-2{
+    width: 40%;
+    display: none;
+}
+.slider-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+} */
+.name{
+    color: white;
+    font-family: "Lexend Giga", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.main-sec-3{
+    width: 100%;
+    display: flex;
+    
+}
+.left{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+ .img-2{
+    width: 50%;
+    margin-left: 17%;
+    margin-top: 150px;
+ }
+ .img-1{
+    width: 78%;
+    margin-top: 70px;
+    margin-left: 17%;
+ }
+ .right{
+    width: 32.5%;
+    margin-left: 8%;
+ }
+.heading{
+    color: black;
+    margin-top: 270px;
+    font-size: 30px;
+    font-family: "Lexend Giga", sans-serif;
+}
+.text-area{
+    font-family: "Lexend Giga", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.part-2{
+    margin-left: 0;
+    
+}
+.img-3{
+    margin-top: 230px;
+}
+.main-sec-4{
+    width: 100%;
+    background-color: #110313;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+.left-2{
+    width: 49%;
+}
+.right-2{
+    width: 30%;
+    margin-left: 12%;
+}
+/* .img-4{
+    margin-top: 250px;
+    width: max-content;
+    margin-left: 25%;
+} */
+.heading-2{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 100px;
+}
+.info{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 22px;
+}
+.main-heading{
+    padding-top: 150px;
+}
+footer{
+    background: #110313;
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    padding-top: 40px;
+}
+.copyright{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10%;
+}
+.footer-links{
+    margin-left: 70%;
+    width: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-link{
+    width: 15px;
+}
+
+
+.slider{
+    margin-left: 0;
+    font-size: 18px;
+}
+.slider:hover{
+    font-size: 19px;
+}
+.map{
+    margin-left: 20%;
+    margin-top: 250px;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    user-select: none;
+    padding: 0 5vw;
+    width: fit-content;
+    font-family: "Lexend Giga", sans-serif;
+}
+
+.slide {
+    width: 50vw;
+    height: 550px;
+    margin: 0 5vw;
+    position: relative;
+    transition: all .7s ease;
+}
+.slide > .photo {
+    width: inherit;
+    height: inherit;
+    transition: all 1s ease;
+}
+.slide > .photo > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide > .text {
+    position: absolute;
+    bottom: 0%;
+    right: 350px;
+    color: white;
+    transition: all .4s ease;
+}
+.slide > .text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+.slide > .text a {
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+/* slide numbers */
+.slide .photo::before {
+    content: '';
+    position: absolute;
+    color: #fff;
+    transform: rotate(-90deg);
+    top: 60px;
+    left: -60px;
+}
+
+.slide:nth-child(1) .photo::before {
+    content: '01 _____ 05';
+}
+.slide:nth-child(2) .photo::before {
+    content: '02 _____ 05';
+}
+.slide:nth-child(3) .photo::before {
+    content: '03 _____ 05';
+}
+.slide:nth-child(4) .photo::before {
+    content: '04 _____ 05';
+}
+.slide:nth-child(5) .photo::before {
+    content: '05 _____ 05';
+}
+
+/* Press animation */
+.slider:active {
+    cursor: grabbing;
+}
+.slider:active .slide {
+    transform: scale(0.9);
+    margin: 0 0; 
+}
+.slider:active .slide .text {
+    transform: translateX(-40%);
+}
